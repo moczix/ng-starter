@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "eslint-fix": "eslint --ext .ts,.html libs/ apps/ --fix",
-    "eslint-check": "eslint --ext .ts,.html libs/ apps/",
+    "eslint-fix": "eslint --ext .ts,.html packages/ apps/ --fix",
+    "eslint-check": "eslint --ext .ts,.html packages/ apps/",
     "tsc-check": "tsc --build tsconfig.tsc-check.json",
     "prettier-fix": "prettier --config .prettierrc --write '**/*.html'",
     "prettier-check": "prettier --config .prettierrc --check '**/*.html'",
@@ -29,6 +29,10 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~12.2.11",
+    "@angular-eslint/eslint-plugin": "12.3.1",
+    "@angular-eslint/eslint-plugin-template": "12.3.1",
+    "@angular-eslint/template-parser": "12.3.1",
     "@angular/cli": "~12.2.10",
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",

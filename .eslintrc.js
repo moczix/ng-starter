@@ -24,7 +24,7 @@ module.exports = {
         'prettier',
         'plugin:prettier/recommended'
       ],
-      plugins: ['@typescript-eslint', 'prettier', '@typescript-eslint/tslint', '@angular-eslint'],
+      plugins: ['@typescript-eslint', 'prettier', '@angular-eslint'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 2020,

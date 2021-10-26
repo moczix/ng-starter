@@ -4,7 +4,7 @@
   "cli": {
     "packageManager": "yarn"
   },
-  "newProjectRoot": "projects",
+  "newProjectRoot": "apps",
   "projects": {
   }
 }
